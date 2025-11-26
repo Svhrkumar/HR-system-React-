@@ -7,7 +7,8 @@ const ProcessStepper :React.FC<ProcessProps> = ({steps,currentStep}) => {
 
     return(
         <div className="flex items-center justify-between mb-8 p-2">
-        {steps.map((step, index) => (
+        {steps.map((step, index) => {
+            return(
             <div key={step} className="flex items-center w-full relative">
                 {/* Circle */}
                 <div
@@ -34,7 +35,7 @@ const ProcessStepper :React.FC<ProcessProps> = ({steps,currentStep}) => {
                     />
                 )}
             </div>
-        ))}
+        )})}
     </div>
     )
 }
