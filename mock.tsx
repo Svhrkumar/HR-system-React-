@@ -123,5 +123,18 @@ export const CandidateData = {
         "Conduct thorough testing of web and mobile platforms. Knowledge of automation tools and scripting preferred.",
     },
   ];
-  
+
+export const recentCandidates = [
+{ id: 1, name: 'Ravi Kumar', role: 'Frontend Developer', status: 'Screening' },
+{ id: 2, name: 'Priya Sharma', role: 'Data Analyst', status: 'Technical Round' },
+{ id: 3, name: 'Amit Joshi', role: 'Backend Developer', status: 'HR Round' },
+{ id: 4, name: 'Neha Verma', role: 'UI/UX Designer', status: 'Interview Scheduled' },
+{ id: 5, name: 'Sahana Rao', role: 'Full Stack', status: 'Offered' },
+];
+
+export const interviewsToday = [
+{ id: 1, name: 'Ravi Kumar', role: 'Frontend', time: '10:00 AM', interviewer: 'Maya' },
+{ id: 2, name: 'Priya Sharma', role: 'Data', time: '11:30 AM', interviewer: 'Ajay' },
+{ id: 3, name: 'Amit Joshi', role: 'Backend', time: '2:00 PM', interviewer: 'Karan' },
+];
   
